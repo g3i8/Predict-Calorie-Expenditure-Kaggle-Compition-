@@ -1,6 +1,35 @@
-The goal is to predict how many calories were burned during a workout.
+# Predict Calorie Expenditure - Kaggle Playground Series S5E5
 
-The evaluation metric for this competition is Root Mean Squared Logarithmic Error.
+## Overview
 
-\textrm{RMSLE} =   \left( \frac{1}{n} \sum_{i=1}^n \left(\log (1 + \widehat{y}_i) - \log (1 + y_i)\right) \right)^{\frac{1}{2}}
+This repository contains code for participating in the Kaggle competition [Playground Series - Season 5, Episode 5](https://www.kaggle.com/competitions/playground-series-s5e5). The goal is to build a regression model that predicts the number of calories burned during exercise based on biometric and activity data.
+
+## Competition Details
+
+- **Platform**: Kaggle
+- **Challenge Type**: Regression
+- **Target Variable**: `Calories_Burned`
+- **Evaluation Metric**: Root Mean Squared Error (RMSE)
+- **Submission Format**: CSV with `id` and predicted `Calories_Burned`
+
+## Dataset
+
+The dataset includes features related to individuals’ biometric and physical activity data.
+
+### Example Features:
+
+- `Age`, `Height`, `Weight`, `Gender`
+- `Duration`, `Heart_Rate`, `Body_Temp`
+
+## Getting Started
+
+### Requirements
+
+- Python 3.7+
+- Libraries:
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib / seaborn (for EDA)
+
       
