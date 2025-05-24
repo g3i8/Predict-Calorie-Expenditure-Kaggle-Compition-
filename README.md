@@ -8,9 +8,9 @@ This repository contains code for participating in the Kaggle competition [Playg
 
 - **Platform**: Kaggle
 - **Challenge Type**: Regression
-- **Target Variable**: `Calories_Burned`
+- **Target Variable**: `Calories`
 - **Evaluation Metric**: Root Mean Squared Error (RMSE)
-- **Submission Format**: CSV with `id` and predicted `Calories_Burned`
+- **Submission Format**: CSV with `id` and predicted `Calories`
 
 ## Dataset
 
